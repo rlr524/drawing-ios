@@ -11,6 +11,7 @@
 		07D73C412A392FBC00A355E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D73C402A392FBC00A355E3 /* ContentView.swift */; };
 		07D73C432A392FBD00A355E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D73C422A392FBD00A355E3 /* Assets.xcassets */; };
 		07D73C462A392FBD00A355E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D73C452A392FBD00A355E3 /* Preview Assets.xcassets */; };
+		07D73C4E2A3931C000A355E3 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D73C4D2A3931C000A355E3 /* PathView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		07D73C402A392FBC00A355E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		07D73C422A392FBD00A355E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07D73C452A392FBD00A355E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		07D73C4D2A3931C000A355E3 /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				07D73C402A392FBC00A355E3 /* ContentView.swift */,
 				07D73C422A392FBD00A355E3 /* Assets.xcassets */,
 				07D73C442A392FBD00A355E3 /* Preview Content */,
+				07D73C4F2A3931C600A355E3 /* Practice */,
 			);
 			path = Drawing;
 			sourceTree = "<group>";
@@ -67,6 +70,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		07D73C4F2A3931C600A355E3 /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				07D73C4D2A3931C000A355E3 /* PathView.swift */,
+			);
+			path = Practice;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,6 +88,7 @@
 				07D73C372A392FBC00A355E3 /* Sources */,
 				07D73C382A392FBC00A355E3 /* Frameworks */,
 				07D73C392A392FBC00A355E3 /* Resources */,
+				07D73C4C2A39305A00A355E3 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -132,12 +144,34 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07D73C4C2A39305A00A355E3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint is not installed.\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		07D73C372A392FBC00A355E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				07D73C412A392FBC00A355E3 /* ContentView.swift in Sources */,
+				07D73C4E2A3931C000A355E3 /* PathView.swift in Sources */,
 				07D73C3F2A392FBC00A355E3 /* DrawingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
