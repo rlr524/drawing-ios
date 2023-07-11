@@ -17,6 +17,7 @@
 		07D73C432A392FBD00A355E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D73C422A392FBD00A355E3 /* Assets.xcassets */; };
 		07D73C462A392FBD00A355E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D73C452A392FBD00A355E3 /* Preview Assets.xcassets */; };
 		07D73C4E2A3931C000A355E3 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D73C4D2A3931C000A355E3 /* PathView.swift */; };
+		D498CEAB2A5DFD0800C071B5 /* AnimatablePairView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D498CEAA2A5DFD0800C071B5 /* AnimatablePairView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		07D73C422A392FBD00A355E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07D73C452A392FBD00A355E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		07D73C4D2A3931C000A355E3 /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
+		D498CEAA2A5DFD0800C071B5 /* AnimatablePairView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatablePairView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				07806B502A4A50FE0026D02E /* ImagePaintView.swift */,
 				075436242A4B7355001D04F3 /* SpecialEffectsView.swift */,
 				079202A32A57540400DEE5DF /* AnimatableDataView.swift */,
+				D498CEAA2A5DFD0800C071B5 /* AnimatablePairView.swift */,
 			);
 			path = Practice;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				07D73C412A392FBC00A355E3 /* ContentView.swift in Sources */,
 				07806B4D2A4A31E90026D02E /* ArcView.swift in Sources */,
 				07806B4F2A4A3A750026D02E /* FlowerView.swift in Sources */,
+				D498CEAB2A5DFD0800C071B5 /* AnimatablePairView.swift in Sources */,
 				075436252A4B7355001D04F3 /* SpecialEffectsView.swift in Sources */,
 				07806B512A4A50FE0026D02E /* ImagePaintView.swift in Sources */,
 				07D73C4E2A3931C000A355E3 /* PathView.swift in Sources */,
